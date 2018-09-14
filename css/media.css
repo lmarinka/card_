@@ -1,0 +1,17 @@
+@media screen and (max-width: 960px) {
+		.card__item {
+			width: 49%;
+		}
+		
+	}
+
+@media screen and (max-width: 520px) {
+	.card__item {
+		width: 100%;
+	}
+
+	.card__span--mob {
+		font-size: 0.8rem;
+	}
+	
+}

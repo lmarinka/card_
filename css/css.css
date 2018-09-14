@@ -1,0 +1,210 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgba(0, 0, 0, .1);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+p, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.card__list {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-between;
+	/*margin-top: 20px;*/
+}
+
+.card__item {
+	width: 24%;
+	background: #fff;
+	padding: 20px; 
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin-top: 20px;
+}
+
+.card__top {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.card-title__wrap {
+	width: 85%;
+}
+
+.card__line--red {
+	border-bottom: 1px solid rgb(248, 137, 105);
+}
+
+.card__line--2 {
+	border-bottom: 1px solid rgb(130, 210, 197);
+}
+
+.card__line--3 {
+	border-bottom: 1px solid rgb(203, 220, 173);
+}
+
+.card__line--4 {
+	border-bottom: 1px solid rgb(191, 204, 205);
+}
+
+.card__title {
+	color: rgb(149, 149, 149);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.card__numb {
+	color: rgb(94, 94, 94);
+}
+
+.card-img__wrap {
+	width: 50px;
+	height: 50px;
+
+}
+
+.card-title__wrap {
+	text-align: center;
+
+}
+
+.card__paradr {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	color: rgb(149, 149, 149);
+}
+
+.card__span--top {
+	text-transform: uppercase;
+}
+
+.card2__top {
+	text-align: center;
+}
+
+.card2-img__wrap {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+}
+
+.card__bottom--item {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: 10px 0 10px 0;
+	color: rgb(149, 149, 149);
+}
+
+.card__ind {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: rgb(233, 233, 233);
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.card__ind--active {
+	background: rgb(248, 137, 105);
+}
+
+.card__ind--active-green {
+	background: rgb(122, 203, 151);
+}
+
+.card__bottom--wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.card2__top {
+	padding-bottom: 10px;
+}
+
+.cards-base__list {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.cards-base__item {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	background: #fff;
+	padding: 20px; 
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 20px 0 0 0;
+}
+
+.card3-img__wrap {
+	width: 50px;
+	height: 50px;
+}
+
+.card__progress {
+	width: 100%;
+	height: 8px;
+	border-radius: 15px;
+    background: rgb(248, 137, 105);
+}
+
+
+.card__progress::-webkit-progress-bar {
+	border-radius: 15px;
+	background: rgb(238, 238, 238);
+}
+ 
+.card__progress::-webkit-progress-value {
+	border-radius: 15px;
+	background: rgb(248, 137, 105);
+}
+
+.card__progress::-moz-progress-bar {
+	border-radius: 15px;
+	background: rgb(238, 238, 238);
+}
+
+.card__progress::-moz-progress-value {
+	border-radius: 15px;
+	background: rgb(248, 137, 105);
+}
+
+.card__progress--green {
+	background-color: rgb(122, 203, 151);
+}
+
+.card__progress--green::-webkit-progress-value {
+	background-color: rgb(122, 203, 151);
+}
+
+.card__progress--green::-moz-progress-value {
+	background-color: rgb(122, 203, 151);
+}
+
+.cards-base__descr {
+	width: 100%;
+	margin-left: 20px;
+}
